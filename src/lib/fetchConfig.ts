@@ -1,7 +1,7 @@
 export const fetchConfig = {
   endpoint: `https://graphql.contentful.com/content/v1/spaces/${String(
     process.env.CONTENTFUL_SPACE_ID,
-  )}/environments/staging/`,
+  )}`,
   params: {
     headers: {
       'Content-Type': 'application/json',
